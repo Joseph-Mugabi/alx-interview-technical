@@ -1,0 +1,26 @@
+# Lockboxes
+
+```
+josephgreen@JosephGreen-Mugabi:~/alx-interview-technical/0x01-lockboxes$ cat main_0.py 
+#!/usr/bin/python3
+
+canUnlockAll = __import__('0-lockboxes').canUnlockAll
+
+boxes = [[1], [2], [3], [4], []]
+print(canUnlockAll(boxes))
+
+boxes = [[1, 4, 6], [2], [0, 4, 1], [5, 6, 2], [3], [4, 1], [6]]
+print(canUnlockAll(boxes))
+
+boxes = [[1, 4], [2], [0, 4, 1], [3], [], [4, 1], [5, 6]]
+print(canUnlockAll(boxes))
+
+josephgreen@JosephGreen-Mugabi:~/alx-interview-technical/0x01-lockboxes$ 
+```
+```
+josephgreen@JosephGreen-Mugabi:~/alx-interview-technical/0x01-lockboxes$ ./main_0.py    
+True
+True
+False
+josephgreen@JosephGreen-Mugabi:~/alx-interview-technical/0x01-lockboxes$ 
+```
